@@ -1,3 +1,4 @@
 var app = require("./app");
+var port = process.env.PORT || 5000;
 
-app.listen(8080, '127.0.0.1')
+app.listen(port)
