@@ -2,8 +2,9 @@
   "name": "codefish",
   "description": "A simple node.js app used in Codeship screencasts.",
   "version": "0.0.1",
-  "scripts": {
-    "test": "jasmine-node spec/"
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
   },
   "dependencies": {
     "express": "3.x",
